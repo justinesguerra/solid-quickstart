@@ -14,6 +14,18 @@ export default function Home() {
         </a>{" "}
         to learn how to build SolidStart apps.
       </p>
+
+      <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
     </main>
   );
 }
